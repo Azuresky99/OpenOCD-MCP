@@ -2,7 +2,7 @@
 
 > **版本:** 1.0.0 | **作者:** 碧云天书 驱使 Claude Code + Deepseek pro v4 | **日期:** 2026-06-21  
 
-AI 助手可以通过 MCP 协议使用 OpenOCD 对 STM32 微控制器进行烧录和调试。
+AI 助手（如Claude Code CLI）可以通过 MCP 协议使用 OpenOCD 对 STM32 微控制器进行烧录和调试。
 
 
 ## 前提条件
