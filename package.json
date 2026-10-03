@@ -1,0 +1,24 @@
+{
+  "name": "openocd-mcp",
+  "version": "1.0.0",
+  "description": "OpenOCD MCP 服务器 - 为 AI 助手提供 STM32 烧录和调试能力",
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsx src/server.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.0.0",
+    "tsx": "^4.0.0"
+  }
+}
